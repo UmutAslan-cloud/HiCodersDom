@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+h1{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+i {
+background-color: rosybrown;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.stats {
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    order: -1;
+    margin: 25px;
+}
+
+button {
+    margin: 5px;
+    width: 8vw;
+    height: 3vh;
+    background-color: rgb(91, 91, 245);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 10px;
+}
+
+main {
+    width: 6vw;
+    height: 20vh;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    top: 30vh; left: 35vw; */
+    width: 90vw;
+    height: 80vh;
+}
+
+main div {
+    width: 6vw;
+    height: 33%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#zero,
+#half {
+    border-top: 3px solid black;
+}
