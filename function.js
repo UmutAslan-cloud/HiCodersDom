@@ -64,3 +64,8 @@ function multimin() {
         zeromin()
     }
 }
+
+let chargeup=document.getElementById("up")
+let chargedown=document.getElementById("down")
+chargeup.addEventListener("click",multi);
+chargedown.addEventListener("click",multimin);
